@@ -1,0 +1,53 @@
+.head {
+    background-color: #053d47;
+}
+.head a{
+    color: white;
+    font-size: larger;
+    font-weight: 500;
+}
+.navbar-nav a:hover{
+    box-shadow: 0px -3px 0px 0px  red;
+    transition: 0.3s all;
+    color: white;
+    /* border-top: red 2px solid; */
+}
+.land {
+    position: relative;
+    height: 800px;
+    background-color: #035968 ;
+    /* background-image: linear-gradient(to right, rgb(221, 75, 75), #035968); */
+}
+.land head{
+    /* position: absolute; */
+    padding:10% 0px 0px 10%;
+    max-width: 800px;
+    color: white;
+    /* top: 10%; */
+    /* left: 10%; */
+    display: block;
+}
+.about {
+    background-color: aliceblue;
+}
+.about txt{
+    display: block;
+    max-width: 1000px;
+    margin: auto;
+    padding: 5% 0px;
+    text-align: center;
+}
+.about button{
+    border: none;
+    border-bottom: grey solid 3px;
+}
+.about button:hover {
+    border-bottom: red solid 3px;
+    transition: 1s all;
+}
+.speakers {
+    height: 400px;
+    color: white;
+    text-align: center;
+    background-color: #035968 ;
+}
