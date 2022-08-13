@@ -1,4 +1,5 @@
 .head {
+    z-index: 1;
     background-color: #053d47;
 }
 .head a{
@@ -15,7 +16,7 @@
 .land {
     position: relative;
     height: 800px;
-    background-color: #035968 ;
+    background-color: inherit;
     /* background-image: linear-gradient(to right, rgb(221, 75, 75), #035968); */
 }
 .land head{
@@ -28,7 +29,8 @@
     display: block;
 }
 .about {
-    background-color: aliceblue;
+    color: aliceblue;
+    /* background-color: white; */
 }
 .about txt{
     display: block;
@@ -48,6 +50,7 @@
 .speakers {
     height: 400px;
     color: white;
+    /* background-color: aliceblue; */
     text-align: center;
-    background-color: #035968 ;
+    background-color: inherit;
 }

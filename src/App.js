@@ -3,17 +3,17 @@ import Land from "./Homecomp/Land"
 import Foot from "./Homecomp/Foot"
 import 'mdb-react-ui-kit/dist/css/mdb.min.css'
 import Particles from "./Homecomp/Particles"
+import Try from "./Homecomp/Try"
 
 function App() {
 
   return (
     <div>
-      {/* <Particles  /> */}
-      <Head />
+      <Head />  
       <Land />
-      Learn React
       <Foot />
-    </div>
+    <Particles id="tsparticles" />
+  </div>
   );
 
 }
