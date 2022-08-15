@@ -66,6 +66,8 @@
 .land head {
     /* position: absolute; */
     padding: 10% 0px;
+    /* height: 800px; */
+    min-height: 800px;
     /* background-color: red; */
     max-width: 800px;
     color: white;
