@@ -9,7 +9,7 @@
 
 .head {
     z-index: 1;
-    background-color: #1d1d22;
+    background-color: #0e0d0d;
     /* box-shadow: 2px 2px 100px 2px yellow; */
     z-index: 10;
     /* background-color: black; */
@@ -162,7 +162,8 @@
 .speakers div section {
     width: 20%;
     margin: 2%;
-    background-image: linear-gradient(to bottom, white, #282830);
+    min-width: 300px;
+    background-image: linear-gradient(to bottom, white, #1a1a1a);
     overflow: hidden;
     border-radius: 20px;
     /* border: 20px solid black; */
@@ -214,4 +215,14 @@
     transition: 0.6s all;
     cursor: pointer;
     opacity: 1;
+}
+
+
+@media screen and (max-width: 990px) {
+    .land fig {
+        display: none;
+    }
+    .mx-auto mb-4 img{
+        width: 10px;
+    }
 }

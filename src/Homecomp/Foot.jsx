@@ -4,7 +4,7 @@ import { MDBFooter, MDBContainer, MDBRow, MDBCol, MDBIcon } from 'mdb-react-ui-k
 
 export default function App() {
   return (
-    <MDBFooter className='text-center text-lg-start text-muted' style={{backgroundColor:"white"}}>
+    <MDBFooter className='text-center text-lg-start text-muted' style={{backgroundColor:"white"}} >
       <section className='d-flex justify-content-center justify-content-lg-between p-4 border-bottom'>
         <div className='me-5 d-none d-lg-block'>
           <span>Get connected with us on social networks:</span>
@@ -30,7 +30,7 @@ export default function App() {
         <MDBContainer className='text-center text-md-start mt-5'>
           <MDBRow className='mt-3'>
             <MDBCol md="3" lg="4" xl="3" className='mx-auto mb-4'>
-              <img src={logo} width="140%" style={{marginLeft:"-15px"}} />
+              <img src={logo} width="100%" style={{marginLeft:"-15px"}} />
               {/* <h6 className='text-uppercase fw-bold mb-4' style={{color:"red"}}>
                 <MDBIcon icon="gem" className="me-3" style={{color:"red"}} />
                 TEDx Chandigarh University
@@ -110,7 +110,7 @@ export default function App() {
         </MDBContainer>
       </section>
 
-      <div className='text-center p-4' style={{ backgroundColor:'#282830' }}>
+      <div className='text-center p-4' style={{ backgroundColor:'#1a1a1a' }}>
         © 2021 Copyright : 
         <a className='text-reset fw-bold' href='https://mdbootstrap.com/'>
           TEDx Chandigarh University
