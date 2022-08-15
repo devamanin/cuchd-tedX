@@ -1,56 +1,186 @@
+@font-face {
+    font-family: Helvetica;
+    src: url(../Assests//Helvetica-Font/Helvetica.ttf);
+}
+
+* {
+    font-family: Helvetica;
+}
+
 .head {
     z-index: 1;
-    background-color: #053d47;
+    background-color: #1d1d22;
+    /* box-shadow: 2px 2px 100px 2px yellow; */
+    z-index: 10;
+    /* background-color: black; */
 }
-.head a{
+.head a {
+    text-decoration: none;
+    color: aliceblue;
+    display: inline-block;
+    position: relative;
+}
+
+.head a::after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    max-width: 220px;
+    transform: scaleX(0);
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: red;
+    transform-origin: bottom right;
+    transition: transform 0.5s ease-out;
+}
+
+.head a:hover::after {
+    transform: scaleX(1);
+    transform-origin: bottom left;
+}
+
+/* .head a {
     color: white;
     font-size: larger;
     font-weight: 500;
 }
-.navbar-nav a:hover{
-    box-shadow: 0px -3px 0px 0px  red;
+
+.navbar-nav a:hover {
+    box-shadow: 0px -3px 0px 0px red;
     transition: 0.3s all;
     color: white;
-    /* border-top: red 2px solid; */
 }
+ */
+
 .land {
     position: relative;
     height: 800px;
     background-color: inherit;
+    display: flex;
     /* background-image: linear-gradient(to right, rgb(221, 75, 75), #035968); */
 }
-.land head{
+
+.land head {
     /* position: absolute; */
-    padding:10% 0px 0px 10%;
+    padding: 10% 0px 0px 10%;
     max-width: 800px;
     color: white;
     /* top: 10%; */
     /* left: 10%; */
     display: block;
 }
-.about {
-    color: aliceblue;
-    /* background-color: white; */
+
+.land fig {
+    width: 28%;
+    margin-top: 8%;
+    margin-left: 20%;
+    animation-name: bounce;
+    animation-duration: 3s;
+    /* box-shadow: -5px 0px 10px 0px grey; */
+    z-index: 0;
 }
-.about txt{
+
+@keyframes bounce {
+    0% {
+        margin-top: 8%;
+    }
+
+    50% {
+        margin-top: 5%;
+    }
+
+    100% {
+        margin-top: 8%;
+    }
+}
+
+.about {
+    background-image: linear-gradient(to right, #ffff, #ffff);
+    /* color: aliceblue;  */
+    /* background-color: white; */
+    z-index: 100;
+}
+
+.about txt {
     display: block;
     max-width: 1000px;
     margin: auto;
-    padding: 5% 0px;
+    padding: 2% 0px;
     text-align: center;
 }
-.about button{
+
+.about button {
+    background-color: #ffff;
+    text-decoration: none;
+    display: inline-block;
+    position: relative;
     border: none;
-    border-bottom: grey solid 3px;
+    /* border-bottom: red solid 3px; */
 }
-.about button:hover {
-    border-bottom: red solid 3px;
-    transition: 1s all;
+
+.about button::after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    transform: scaleX(0);
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: red;
+    transform-origin: bottom right;
+    transition: transform 0.5s ease-out;
 }
+
+.about button:hover::after {
+    transform: scaleX(1);
+    transform-origin: bottom left;
+}
+
+
 .speakers {
-    height: 400px;
+    margin-top: 2%;
+    padding: 2%;
+    /* height: 400px; */
     color: white;
     /* background-color: aliceblue; */
     text-align: center;
     background-color: inherit;
+}
+
+.speakers div {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.speakers div section {
+    width: 20%;
+    margin: 2%;
+    background-image: linear-gradient(to bottom, white, #282830);
+    overflow: hidden;
+    border-radius: 20px;
+    /* border: 20px solid black; */
+}
+
+.speakers h5 {
+    margin-top: 20px;
+    font-weight: bold;
+    font-size: 22px;
+    color: rgb(223, 47, 47);
+}
+
+.speakers p {
+    font-size: 15px;
+}
+
+.speakers div img {
+    opacity: 0.5;
+}
+
+.speakers div img:hover {
+    transform: scale(1.05);
+    transition: 0.6s all;
+    cursor: pointer;
+    opacity: 1;
 }
