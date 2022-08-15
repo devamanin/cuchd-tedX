@@ -1,4 +1,5 @@
 import React from 'react';
+import logo from "../Assests/logob.png"
 import { MDBFooter, MDBContainer, MDBRow, MDBCol, MDBIcon } from 'mdb-react-ui-kit';
 
 export default function App() {
@@ -29,10 +30,11 @@ export default function App() {
         <MDBContainer className='text-center text-md-start mt-5'>
           <MDBRow className='mt-3'>
             <MDBCol md="3" lg="4" xl="3" className='mx-auto mb-4'>
-              <h6 className='text-uppercase fw-bold mb-4'>
-                <MDBIcon icon="gem" className="me-3" />
-                TEDx CU
-              </h6>
+              <img src={logo} width="140%" style={{marginLeft:"-15px"}} />
+              {/* <h6 className='text-uppercase fw-bold mb-4' style={{color:"red"}}>
+                <MDBIcon icon="gem" className="me-3" style={{color:"red"}} />
+                TEDx Chandigarh University
+              </h6> */}
               <p>
                 Here you can use rows and columns to organize your footer content. Lorem ipsum dolor sit amet,
                 consectetur adipisicing elit.
@@ -108,10 +110,10 @@ export default function App() {
         </MDBContainer>
       </section>
 
-      <div className='text-center p-4' style={{ backgroundColor: 'rgba(0, 0, 0, 0.05)' }}>
-        © 2021 Copyright:
+      <div className='text-center p-4' style={{ backgroundColor:'#282830' }}>
+        © 2021 Copyright : 
         <a className='text-reset fw-bold' href='https://mdbootstrap.com/'>
-          Vansh Dhiman
+          TEDx Chandigarh University
         </a>
       </div>
     </MDBFooter>
