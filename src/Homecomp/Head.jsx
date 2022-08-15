@@ -8,8 +8,8 @@ import "./Home.css"
 function CollapsibleExample() {
   return (
     <Navbar collapseOnSelect expand="lg" className='head' >
-      <Container style={{maxWidth:"1500px"}}>
-        <Navbar.Brand href="#home">
+      <Container style={{maxWidth:"1500px" }}>
+        <Navbar.Brand href="#home" style={{width:"80%"}}>
           <fig style={{}}>
             <img src={logo}
               width={"50%"} />

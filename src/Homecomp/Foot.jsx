@@ -1,5 +1,6 @@
 import React from 'react';
 import logo from "../Assests/logob.png"
+import 'mdb-react-ui-kit/dist/css/mdb.min.css'
 import { MDBFooter, MDBContainer, MDBRow, MDBCol, MDBIcon } from 'mdb-react-ui-kit';
 
 export default function App() {

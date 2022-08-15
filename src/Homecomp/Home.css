@@ -9,7 +9,9 @@
 
 .head {
     z-index: 1;
+    color: red;
     background-color: #0e0d0d;
+    /* background-color: white; */
     /* box-shadow: 2px 2px 100px 2px yellow; */
     z-index: 10;
     /* background-color: black; */
@@ -222,7 +224,22 @@
     .land fig {
         display: none;
     }
+    .land head{
+        margin-top: 20%;
+        padding: 20px;
+    }
     .mx-auto mb-4 img{
         width: 10px;
     }
+    .head img{
+        width: 100%;
+    }
+}
+
+.navbar-light .navbar-toggler {
+    /* background-color: white; */
+
+    background-image: url(../Assests/ham.png);
+    background-size: 70%;
+    background-repeat: no-repeat;
 }
