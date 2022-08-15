@@ -4,7 +4,7 @@ export default function Land() {
   return (
     <>
       <div className="land">
-        <head>
+        <head   data-aos="fade-up">
           <h1>Start Recruiting Fast</h1>
           <br></br>
           <h3>Date of Registration : 30-08-2022</h3>
@@ -21,7 +21,7 @@ export default function Land() {
         
       </div>
 
-      <div className="about">
+      <div className="about"  >
         <txt>
           <h3>About</h3>
           <p>Lorem ipsum dolor sit amet. Ut maiores enim ad consequatur reiciendis aut veritatis voluptatem et fugiat quisquam est eligendi beatae ea laboriosam vitae ut similique tenetur. Qui odit molestias et assumenda repellat ea minima nemo eos quidem accusantium aut aliquid molestias.
@@ -33,7 +33,7 @@ export default function Land() {
         </txt>
       </div>
 
-      <div className="speakers">
+      <div className="speakers"  data-aos="fade-up">
         <h3>Speakers</h3>
         <div>
         <section>
