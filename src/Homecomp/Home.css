@@ -55,15 +55,18 @@
 
 .land {
     position: relative;
-    height: 800px;
+    /* height: 800px; */
     background-color: inherit;
     display: flex;
+    justify-content: space-evenly;
+    /* max-width: 1400px; */
     /* background-image: linear-gradient(to right, rgb(221, 75, 75), #035968); */
 }
 
 .land head {
     /* position: absolute; */
-    padding: 10% 0px 0px 10%;
+    padding: 10% 0px;
+    /* background-color: red; */
     max-width: 800px;
     color: white;
     /* top: 10%; */
@@ -74,7 +77,7 @@
 .land fig {
     width: 28%;
     margin-top: 8%;
-    margin-left: 20%;
+    /* margin-left: 2%; */
     animation-name: bounce;
     animation-duration: 3s;
     /* box-shadow: -5px 0px 10px 0px grey; */
