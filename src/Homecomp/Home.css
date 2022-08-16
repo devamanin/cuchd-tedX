@@ -234,6 +234,9 @@
     .head img{
         width: 100%;
     }
+    .blog section {
+        width: 100%;
+    }
 }
 
 .navbar-light .navbar-toggler {
@@ -257,4 +260,50 @@
     min-width: 300px;
     /* margin: 2%; */
     padding: 2%;
+    margin: auto;
+}
+
+
+.blog{
+    max-width: 1400px;
+    margin: 2% auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+.blog section{
+    margin: 1%;
+    width: 30%;
+    /* height: 30rem; */
+    background-color: aqua;
+    text-align: center;
+    border-radius: 20px;
+}
+.blog section fig{
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    display: block;
+    height: 200px;
+    background-image: url("https://images.pexels.com/photos/1591056/pexels-photo-1591056.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+    background-size: cover;
+    background-position: center;
+}
+
+
+@media screen and (max-width: 990px) {
+    .land fig {
+        display: none;
+    }
+    .land head{
+        margin-top: 20%;
+        padding: 20px;
+    }
+    .mx-auto mb-4 img{
+        width: 10px;
+    }
+    .head img{
+        width: 100%;
+    }
+    .blog section {
+        width: 100%;
+    }
 }
