@@ -9,7 +9,7 @@ function CollapsibleExample() {
   return (
     <Navbar collapseOnSelect expand="lg" className='head' >
       <Container style={{maxWidth:"1500px" }}>
-        <Navbar.Brand href="#home" style={{width:"80%"}}>
+        <Navbar.Brand href="/" style={{width:"80%"}}>
           <fig style={{}}>
             <img src={logo}
               width={"50%"} />
@@ -20,7 +20,7 @@ function CollapsibleExample() {
           <Nav className="me-auto">
           </Nav>
           <Nav>
-            <Nav.Link href="#deets" style={{ color: "white" }}>Home</Nav.Link>
+            <Nav.Link href="/" style={{ color: "white" }}>Home</Nav.Link>
             <Nav.Link eventKey={2} href="#memes" style={{ color: "white" }}>Blogs</Nav.Link>
             <Nav.Link href="/about" style={{ color: "white" }}>About</Nav.Link>
             <Nav.Link href="#deets" style={{ color: "white" }}>Speakers</Nav.Link>
