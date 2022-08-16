@@ -29,7 +29,9 @@ export default function Land() {
             Sit adipisci dolorem est commodi molestiae est galisum consequatur id internos aperiam ad eaque autem. Est dolore maxime ex reprehenderit optio sit iste quas qui sunt expedita ea minima aliquam ab sunt neque.
 
             Est sunt qui rerum voluptate ut animi nihil est molestias necessitatibus? Et accusamus corrupti ex nulla voluptas a soluta voluptatem et quia architecto non rerum debitis est autem consequuntur. 33 mollitia iste qui ipsam culpa et cumque mollitia aut quia necessitatibus?</p>
-          <button> {">"} Read More</button>
+          <a href="/about">
+          <button > {">"} Read More</button>
+          </a>
         </txt>
       </div>
 

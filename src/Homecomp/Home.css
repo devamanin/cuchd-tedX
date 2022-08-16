@@ -243,3 +243,18 @@
     background-size: 70%;
     background-repeat: no-repeat;
 }
+
+.aboutp {
+    /* background-color: aliceblue; */
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.aboutp section{
+    color: white;
+    text-align: center;
+    width: 50%;
+    min-width: 300px;
+    /* margin: 2%; */
+    padding: 2%;
+}
