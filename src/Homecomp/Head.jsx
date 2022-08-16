@@ -22,7 +22,7 @@ function CollapsibleExample() {
           <Nav>
             <Nav.Link href="#deets" style={{ color: "white" }}>Home</Nav.Link>
             <Nav.Link eventKey={2} href="#memes" style={{ color: "white" }}>Blogs</Nav.Link>
-            <Nav.Link href="#deets" style={{ color: "white" }}>About</Nav.Link>
+            <Nav.Link href="/about" style={{ color: "white" }}>About</Nav.Link>
             <Nav.Link href="#deets" style={{ color: "white" }}>Speakers</Nav.Link>
             <Nav.Link eventKey={2} href="#memes" style={{ color: "white" }}>Theme</Nav.Link>
             <Nav.Link eventKey={2} href="#memes" style={{ color: "white" }}>Team</Nav.Link>
