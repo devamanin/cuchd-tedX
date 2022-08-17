@@ -16,6 +16,7 @@ export default function Blog() {
               Est sunt qui rerum voluptate ut animi nihil est molestias necessitatibus? Et accusamus corrupti ex nulla voluptas a
               soluta voluptatem et quia architecto non rerum debitis est autem consequuntur. 33 mollitia iste qui ipsam culpa et cumque mollitia aut quia necessitatibus?
             </p>
+            <button>--{'>'}</button>
           </txt>
         </section>
         <section>
@@ -30,6 +31,7 @@ export default function Blog() {
               Est sunt qui rerum voluptate ut animi nihil est molestias necessitatibus? Et accusamus corrupti ex nulla voluptas a
               soluta voluptatem et quia architecto non rerum debitis est autem consequuntur. 33 mollitia iste qui ipsam culpa et cumque mollitia aut quia necessitatibus?
             </p>
+            <button>--{'>'}</button>
           </txt>
         </section>
         <section>
@@ -44,6 +46,7 @@ export default function Blog() {
               Est sunt qui rerum voluptate ut animi nihil est molestias necessitatibus? Et accusamus corrupti ex nulla voluptas a
               soluta voluptatem et quia architecto non rerum debitis est autem consequuntur. 33 mollitia iste qui ipsam culpa et cumque mollitia aut quia necessitatibus?
             </p>
+            <button>--{'>'}</button>
           </txt>
         </section>
         <section>
@@ -58,6 +61,7 @@ export default function Blog() {
               Est sunt qui rerum voluptate ut animi nihil est molestias necessitatibus? Et accusamus corrupti ex nulla voluptas a
               soluta voluptatem et quia architecto non rerum debitis est autem consequuntur. 33 mollitia iste qui ipsam culpa et cumque mollitia aut quia necessitatibus?
             </p>
+            <button>--{'>'}</button>
           </txt>
         </section>
         <section>
@@ -72,6 +76,7 @@ export default function Blog() {
               Est sunt qui rerum voluptate ut animi nihil est molestias necessitatibus? Et accusamus corrupti ex nulla voluptas a
               soluta voluptatem et quia architecto non rerum debitis est autem consequuntur. 33 mollitia iste qui ipsam culpa et cumque mollitia aut quia necessitatibus?
             </p>
+            <button>--{'>'}</button>
           </txt>
         </section>
         <section>
@@ -86,6 +91,7 @@ export default function Blog() {
               Est sunt qui rerum voluptate ut animi nihil est molestias necessitatibus? Et accusamus corrupti ex nulla voluptas a
               soluta voluptatem et quia architecto non rerum debitis est autem consequuntur. 33 mollitia iste qui ipsam culpa et cumque mollitia aut quia necessitatibus?
             </p>
+            <button>--{'>'}</button>
           </txt>
         </section>
         
