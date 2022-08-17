@@ -278,6 +278,15 @@
     text-align: center;
     border-radius: 20px;
 }
+.blog section button {
+    text-decoration: none;
+    border: none;
+    border-radius: 50%;
+    background-color: red;
+    color: white;
+    font-weight: 900;
+    
+}
 .blog section fig{
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
