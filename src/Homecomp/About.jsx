@@ -1,4 +1,4 @@
-
+import img from "../Assests/Tedx1.png"
 import "./Home.css"
 
 export default function About() {
@@ -14,7 +14,7 @@ export default function About() {
             soluta voluptatem et quia architecto non rerum debitis est autem consequuntur. 33 mollitia iste qui ipsam culpa et cumque mollitia aut quia necessitatibus?</p>
         </section>
         <section>
-          <img src="https://images.pexels.com/photos/2882509/pexels-photo-2882509.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+          <img src={img}
             width={"100%"} />
         </section>
         <section>
