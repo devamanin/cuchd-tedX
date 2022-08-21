@@ -12,16 +12,16 @@ export default function App() {
         </div>
 
         <div>
-          <a href='' className='me-4 text-reset'>
+          <a href='https://www.facebook.com/tedxchandigarhuniversity'  className='me-4 text-reset'>
             <MDBIcon fab icon="facebook-f" />
           </a>
-          <a href='' className='me-4 text-reset'>
+          <a href='https://twitter.com/TEDxChandiUni' className='me-4 text-reset'>
             <MDBIcon fab icon="twitter" />  
           </a>
-          <a href='' className='me-4 text-reset'>
+          <a href='https://www.instagram.com/tedx.chandigarhuniversity' className='me-4 text-reset'>
             <MDBIcon fab icon="instagram" />
           </a>
-          <a href='' className='me-4 text-reset'>
+          <a href='https://www.linkedin.com/in/tedxchandigarhuniversity/' className='me-4 text-reset'>
             <MDBIcon fab icon="linkedin" />
           </a>
         </div>
@@ -37,8 +37,7 @@ export default function App() {
                 TEDx Chandigarh University
               </h6> */}
               <p>
-                Here you can use rows and columns to organize your footer content. Lorem ipsum dolor sit amet,
-                consectetur adipisicing elit.
+              An independently organized event by the students of Chandigarh University, where we give voices to 'Ideas Worth Spreading'.
               </p>
             </MDBCol>
 
@@ -94,18 +93,18 @@ export default function App() {
               <h6 className='text-uppercase fw-bold mb-4'>Contact</h6>
               <p>
                 <MDBIcon icon="home" className="me-2" />
-                New York, NY 10012, US
+                Mohali-Chandigarh, India
               </p>
               <p>
                 <MDBIcon icon="envelope" className="me-3" />
-                info@example.com
+                tedxchandigarhuniversity@outlook.com
               </p>
               <p>
-                <MDBIcon icon="phone" className="me-3" /> + 01 234 567 88
+                <MDBIcon icon="phone" className="me-3" /> + 91 78980 04254
               </p>
-              <p>
-                <MDBIcon icon="print" className="me-3" /> + 01 234 567 89
-              </p>
+              {/* <p>
+                <MDBIcon icon="print" className="me-3" /> + 91 78980 04254
+              </p> */}
             </MDBCol>
           </MDBRow>
         </MDBContainer>
@@ -113,7 +112,7 @@ export default function App() {
 
       <div className='text-center p-4' style={{ backgroundColor:'#1a1a1a' }}>
         © 2021 Copyright : 
-        <a className='text-reset fw-bold' href='https://mdbootstrap.com/'>
+        <a className='text-reset fw-bold' href=''>
           TEDx Chandigarh University
         </a>
       </div>
