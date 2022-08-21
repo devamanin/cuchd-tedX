@@ -7,7 +7,7 @@ export default function Land() {
         <head   data-aos="fade-up">
           <h1>Start Recruiting Fast</h1>
           <br></br>
-          <h3>Date of Registration : 30-08-2022</h3>
+          <h3>Date of Registration : </h3>
 
           <p>We are all set to go, after scrupulous planning and thinking, to recruit new talents who share the same zeal and passion
             like us for spreading ideas worth sharing. We are expanding our team and we look forward to work with like-minded people with a edge.
