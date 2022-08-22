@@ -7,6 +7,7 @@ import 'aos/dist/aos.css'; // You can also use <link> for styles
 import {Routes , Route } from "react-router-dom";
 import About from "./Homecomp/About";
 import Blog from "./Homecomp/Blog";
+import Theme from "./Homecomp/Theme";
 // ..
 AOS.init();
 
@@ -19,6 +20,7 @@ function App() {
         <Route path="/" element={<Land />} />
         <Route path="/about" element={<About />} />
         <Route path="/blog" element={<Blog />} />
+        <Route path="/theme" element={<Theme />} />
       </Routes>
       <Foot />
     <Particles id="tsparticles" />

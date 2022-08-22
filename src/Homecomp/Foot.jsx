@@ -12,16 +12,16 @@ export default function App() {
         </div>
 
         <div>
-          <a href='https://www.facebook.com/tedxchandigarhuniversity'  className='me-4 text-reset'>
+          <a href='https://www.facebook.com/tedxchandigarhuniversity' target='_blank'  className='me-4 text-reset'>
             <MDBIcon fab icon="facebook-f" />
           </a>
-          <a href='https://twitter.com/TEDxChandiUni' className='me-4 text-reset'>
+          <a href='https://twitter.com/TEDxChandiUni' target='_blank' className='me-4 text-reset'>
             <MDBIcon fab icon="twitter" />  
           </a>
-          <a href='https://www.instagram.com/tedx.chandigarhuniversity' className='me-4 text-reset'>
+          <a href='https://www.instagram.com/tedx.chandigarhuniversity' target='_blank' className='me-4 text-reset'>
             <MDBIcon fab icon="instagram" />
           </a>
-          <a href='https://www.linkedin.com/in/tedxchandigarhuniversity/' className='me-4 text-reset'>
+          <a href='https://www.linkedin.com/in/tedxchandigarhuniversity/' target='_blank' className='me-4 text-reset'>
             <MDBIcon fab icon="linkedin" />
           </a>
         </div>
@@ -95,8 +95,8 @@ export default function App() {
                 <MDBIcon icon="home" className="me-2" />
                 Mohali-Chandigarh, India
               </p>
-              <p>
-                <MDBIcon icon="envelope" className="me-3" />
+              <p >
+                <MDBIcon icon="envelope" className="me-2" />
                 tedxchandigarhuniversity@outlook.com
               </p>
               <p>

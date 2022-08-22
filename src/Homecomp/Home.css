@@ -16,6 +16,7 @@
     z-index: 10;
     /* background-color: black; */
 }
+
 .head a {
     text-decoration: none;
     color: aliceblue;
@@ -170,33 +171,37 @@
     border-radius: 20px;
     /* border: 20px solid black; */
 }
-.speakers h3{
+
+.speakers h3 {
     text-decoration: none;
     color: aliceblue;
     display: inline-block;
     position: relative;
 }
+
 .speakers h3::after {
     content: '';
-  position: absolute;
-  width: 100%;
-  transform: scaleX(0);
-  height: 2px;
-  bottom: 0;
-  left: 0;
-  background-color:red;
-  transform-origin: bottom right;
-  transition: transform 0.5s ease-out;
+    position: absolute;
+    width: 100%;
+    transform: scaleX(0);
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: red;
+    transform-origin: bottom right;
+    transition: transform 0.5s ease-out;
 }
+
 .speakers h3:hover::after {
     transform: scaleX(1);
     transform-origin: bottom left;
 }
+
 .speakers h5 {
     margin-top: 10px;
     font-weight: bold;
     font-size: 25px;
-    color:  white;
+    color: white;
     letter-spacing: 1px;
     font-weight: 900;
     /* color: rgb(223, 47, 47); */
@@ -224,16 +229,20 @@
     .land fig {
         display: none;
     }
-    .land head{
+
+    .land head {
         margin-top: 20%;
         padding: 20px;
     }
-    .mx-auto mb-4 img{
+
+    .mx-auto mb-4 img {
         width: 10px;
     }
-    .head img{
+
+    .head img {
         width: 100%;
     }
+
     .blog section {
         width: 100%;
     }
@@ -253,7 +262,8 @@
     align-items: center;
     flex-wrap: wrap;
 }
-.aboutp section{
+
+.aboutp section {
     color: white;
     text-align: center;
     width: 50%;
@@ -264,37 +274,56 @@
 }
 
 
-.blog{
+.blog {
     max-width: 1400px;
     margin: 2% auto;
     display: flex;
     flex-wrap: wrap;
 }
-.blog section{
+
+.blog section {
     margin: 1%;
     width: 30%;
-    /* height: 30rem; */
-    background-color: aqua;
+    height: 37.5rem;
+    background-color: white;
     text-align: center;
     border-radius: 20px;
 }
-.blog section button {
-    text-decoration: none;
-    border: none;
+
+.blog section p {
+    padding: 0px 10px;
+}
+
+.blog section a {
     border-radius: 50%;
     background-color: red;
-    color: white;
-    font-weight: 900;
-    
+    /* font-weight: 900; */
+    color: aliceblue;
+    padding: 10px 15px;
+    box-shadow: 2px 2px 10px 2px black;
 }
-.blog section fig{
+
+.blog section a:hover {
+    box-shadow: 2px 2px 20px 5px black;
+}
+
+.blog section fig {
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
     display: block;
     height: 200px;
-    background-image: url("https://images.pexels.com/photos/1591056/pexels-photo-1591056.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
-    background-size: cover;
-    background-position: center;
+    overflow: hidden;
+    /* background-image: url("https://miro.medium.com/max/1400/1*SwviGDaxkrHhOFqBLPMYvA.jpeg"); */
+    /* background-size: cover; */
+    /* background-position: center; */
+    opacity: 0.8;
+}
+
+.blog section:hover {
+    transform: scale(1.02);
+    transition: 0.6s all;
+    cursor: pointer;
+    opacity: 1;
 }
 
 
@@ -302,17 +331,41 @@
     .land fig {
         display: none;
     }
-    .land head{
+
+    .land head {
         margin-top: 20%;
         padding: 20px;
     }
-    .mx-auto mb-4 img{
+
+    .mx-auto mb-4 img {
         width: 10px;
     }
-    .head img{
+
+    .head img {
         width: 100%;
     }
+
     .blog section {
         width: 100%;
     }
+}
+
+.theme {
+    max-width: 1400px;
+    color: white;
+    margin: auto;
+}
+
+.theme txt {
+    width: 100%;
+    color: red;
+    font-size: 100px;
+}
+
+.react-rotating-text-cursor {
+    /* visibility: ; */
+    color: white;
+    width: 1px;
+    /* font-weight: 400; */
+    /* font-size: 50px; */
 }
