@@ -100,7 +100,7 @@ export default function App() {
                 tedxchandigarhuniversity@outlook.com
               </p>
               <p>
-                <MDBIcon icon="phone" className="me-3" /> + 91 78980 04254
+                <MDBIcon icon="phone" className="me-3" />+91 78980 04254
               </p>
               {/* <p>
                 <MDBIcon icon="print" className="me-3" /> + 91 78980 04254
