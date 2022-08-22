@@ -203,6 +203,8 @@
     font-size: 25px;
     color: white;
     letter-spacing: 1px;
+    z-index: 1;
+    /* overflow: hidden; */
     font-weight: 900;
     /* color: rgb(223, 47, 47); */
     /* text-shadow: 0px 0px 0px #ffff; */
@@ -215,6 +217,7 @@
 
 .speakers div img {
     opacity: 0.5;
+    z-index: -1;
 }
 
 .speakers div img:hover {
@@ -222,6 +225,7 @@
     transition: 0.6s all;
     cursor: pointer;
     opacity: 1;
+    z-index: -1;
 }
 
 
@@ -261,6 +265,8 @@
     display: flex;
     align-items: center;
     flex-wrap: wrap;
+    max-width: 1440px;
+    margin: 2% auto;
 }
 
 .aboutp section {
@@ -327,6 +333,32 @@
 }
 
 
+.theme {
+    max-width: 1400px;
+    color: white;
+    margin:2% auto;
+}
+.theme section{
+    text-align: center;
+    /* margin: 50%; */
+}
+.theme txt {
+    width: 100%;
+    color: red;
+    font-size: 100px;
+}
+
+
+.react-rotating-text-cursor {
+    /* visibility: ; */
+    color: white;
+    width: 1px;
+    /* font-weight: 400; */
+    /* font-size: 50px; */
+}
+
+
+
 @media screen and (max-width: 990px) {
     .land fig {
         display: none;
@@ -348,24 +380,8 @@
     .blog section {
         width: 100%;
     }
-}
-
-.theme {
-    max-width: 1400px;
-    color: white;
-    margin: auto;
-}
-
-.theme txt {
-    width: 100%;
-    color: red;
-    font-size: 100px;
-}
-
-.react-rotating-text-cursor {
-    /* visibility: ; */
-    color: white;
-    width: 1px;
-    /* font-weight: 400; */
-    /* font-size: 50px; */
+    
+    .theme txt {
+        font-size: 50px;
+    }
 }
