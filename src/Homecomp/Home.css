@@ -2,12 +2,18 @@
     font-family: Helvetica;
     src: url(../Assests//Helvetica-Font/Helvetica.ttf);
 }
-
-* {
-    font-family: Helvetica;
+@font-face {
+    font-family: Monster;
+    src: url(../Assests/Restore/Heavy/Restore.otf   );
 }
 
+/* * {
+    font-family: Helvetica;
+} */
+
+
 .head {
+    font-family: Helvetica;
     z-index: 1;
     color: red;
     background-color: #0e0d0d;
@@ -58,6 +64,7 @@
 
 .land {
     position: relative;
+    font-family: Helvetica;
     /* height: 800px; */
     background-color: inherit;
     display: flex;
@@ -106,6 +113,7 @@
 .about {
     background-image: linear-gradient(to right, #ffff, #ffff);
     /* color: aliceblue;  */
+    font-family: Helvetica;
     /* background-color: white; */
     z-index: 100;
 }
@@ -150,6 +158,7 @@
     margin-top: 2%;
     padding: 2%;
     /* height: 400px; */
+    font-family: Helvetica;
     color: white;
     /* background-color: aliceblue; */
     text-align: center;
@@ -267,6 +276,7 @@
     flex-wrap: wrap;
     max-width: 1440px;
     margin: 2% auto;
+    font-family: Helvetica;
 }
 
 .aboutp section {
@@ -284,23 +294,33 @@
     max-width: 1400px;
     margin: 2% auto;
     display: flex;
+    font-family: Helvetica;
     flex-wrap: wrap;
+    z-index: 1;
 }
 
 .blog section {
     margin: 1%;
     width: 30%;
-    height: 37.5rem;
-    background-color: white;
+    /* height: 37.5rem; */
+    background-color: transparent;
     text-align: center;
     border-radius: 20px;
 }
-
+.blog txt{
+    background-color: white;
+    display: block;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    padding: 2px;
+    margin: -5px 0px;
+}
 .blog section p {
     padding: 0px 10px;
 }
 
 .blog section a {
+    z-index: 22;
     border-radius: 50%;
     background-color: red;
     /* font-weight: 900; */
@@ -337,15 +357,32 @@
     max-width: 1400px;
     color: white;
     margin:2% auto;
+    /* font-stretch: extra-condensed; */
 }
 .theme section{
     text-align: center;
+    padding: 25px;
     /* margin: 50%; */
 }
-.theme txt {
-    width: 100%;
+txt {
+    display: block;
+    /* padding-top: 8%; */
+    text-align: center;
+    /* height: 60rem; */
+    /* width: 150%; */
+    /* max-width: 100%;     */
+    /* background-image: url(../Assests/TED_Splash1.png); */
+    /* background-size: cover; */
+    /* background-repeat: no-repeat; */
+    /* position: absolute; */
+    font-family: Monster;
     color: red;
+    /* text-shadow: -1.2px 0 red, 0 1.2px red, 1.2px 0 red, 0 -1.2px red; */
+   /* font-weight: 900; */
     font-size: 100px;
+}
+.themepic{
+    /* filter: blur(5px); */
 }
 
 

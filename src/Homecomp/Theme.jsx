@@ -1,12 +1,16 @@
 import ReactRotatingText from "react-rotating-text"
+import pic from "../Assests/TED_Splash1.png"
 
 export default function Theme() {
     return (
         <>
+        <img className="themepic" src={pic} width="100%" />
+        {/* <txt>   
+            <ReactRotatingText items={['THEME', 'INNOVATION', 'YOUTH']} pause="3000" typingInterval="100" />
+            </txt> */}
         <div className="theme">
-            
             <section>
-            <txt>
+            <txt>   
             <ReactRotatingText items={['THEME', 'INNOVATION', 'YOUTH']} pause="3000" typingInterval="100" />
             </txt>
             </section>

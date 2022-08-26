@@ -21,10 +21,12 @@ export default function Blog() {
               impossible to achieve, right?NO. Past few decades, we have
               increased our processor capacity from millions of transistors to billions. From a cute 28-qubit quantum computer in 2007 from D-wave to IBM condor, which has 1,121-qubits, which means it can store 2¹¹²¹ values and compute them; for reference, 2³⁰⁰ is the total number of atoms in the known universe. So it’s very safe to say that computing power will be the least of our concerns in building genocide AI.Now since current AI bots are not able to tell which squares are the traffic lights.
             </p>
-            <a href=' https://medium.com/@tedxchandigarhuniversity/ai-is-the-future-maybe-d1207a0321' target="_blank">
+          </txt>
+          <div>
+          <a href=' https://medium.com/@tedxchandigarhuniversity/ai-is-the-future-maybe-d1207a0321' target="_blank">
               <MDBIcon fas icon="chevron-right" />
             </a>
-          </txt>
+          </div>
         </section>
         <section>
           <fig>
@@ -37,10 +39,12 @@ export default function Blog() {
             <p>After the most magnificent Rocket launch, you find yourself in space travelling 2000 times the speed of a Ferrari. Trying to predict what beautiful elements of the cosmos you might encounter, Nebulas big enough to engulf our solar system, Meteorites going 100,000 mph, stars, galaxies. The most extravagant journey to our nearest planet is the first stepping stone in achieving and calling Humankind a multi-planetary species.
             Providing you don’t go through with any technical errors or psychological errors, or bazillion errors that can occur. You will find yourself on the barren land of mars. It gives off Mexican vibes covered in a never-ending desert. Enough lurking around; settle in the domes that were created by robots that were sent 4 years ago.
             </p>
-            <a href=' https://medium.com/@tedxchandigarhuniversity/multiplanetary-genesis-567b8df5a0a4' target="_blank">
+          </txt>
+          <div>
+          <a href=' https://medium.com/@tedxchandigarhuniversity/ai-is-the-future-maybe-d1207a0321' target="_blank">
               <MDBIcon fas icon="chevron-right" />
             </a>
-          </txt>
+          </div>
         </section>
         <section>
           <fig>
@@ -55,10 +59,12 @@ export default function Blog() {
               The unsettling truth of no matter what you do, what you are, what you have been, being futile in the face of death. For years we have lived in fear-fueled denial that Immortality, a trifling word, knows no meaning other than in literature… till now. But the mind-numbing pace of technological and biological advancement in the past few centuries has truly brought us closer than ever to this trifling word. 
               The biological end looks promising, but what about the technological side? 
             </p>
-            <a href=' https://medium.com/@tedxchandigarhuniversity/road-to-immortality-b996452b2f8f' target="_blank">
+          </txt>
+          <div>
+          <a href=' https://medium.com/@tedxchandigarhuniversity/ai-is-the-future-maybe-d1207a0321' target="_blank">
               <MDBIcon fas icon="chevron-right" />
             </a>
-          </txt>
+          </div>
         </section>
         {/* <section>
           <fig>
