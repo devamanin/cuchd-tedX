@@ -10,7 +10,7 @@ export default function Theme() {
             </txt> */}
         <div className="theme">
             <section>
-            <txt>   
+            <txt className="themetext">   
             <ReactRotatingText items={['THEME', 'INNOVATION', 'YOUTH']} pause="3000" typingInterval="100" />
             </txt>
             </section>
