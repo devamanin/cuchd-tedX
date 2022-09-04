@@ -17,11 +17,6 @@ export default function Cuchd() {
                     </span>
                 </h1>
                 <About />
-                <h1 style={{ color: "red", maxWidth: "1440px", margin: "20px auto", paddingLeft: "2%", fontWeight: "800" }}>
-                    <span style={{ padding: "5px", borderBottom: "4px red solid" }}>
-                    Theme
-                    </span>
-                </h1>
                 <Theme />
             </div>
         </>
