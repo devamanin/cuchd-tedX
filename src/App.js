@@ -8,6 +8,7 @@ import {Routes , Route } from "react-router-dom";
 import About from "./Homecomp/About";
 import Blog from "./Homecomp/Blog";
 import Theme from "./Homecomp/Theme";
+import Cuchd from "./Homecomp/Cuchd";
 // ..
 AOS.init();
 
@@ -21,6 +22,7 @@ function App() {
         <Route path="/about" element={<About />} />
         <Route path="/blog" element={<Blog />} />
         <Route path="/theme" element={<Theme />} />
+        <Route path="/cuchd" element={<Cuchd />} />
       </Routes>
       <Foot />
     <Particles id="tsparticles" />
