@@ -419,3 +419,9 @@
         font-size: 50px;
     }
 }
+
+.cuchd h1{
+    max-width: 1400px;
+    margin: auto;
+    color: red;
+}
