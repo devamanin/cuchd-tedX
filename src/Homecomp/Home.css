@@ -361,7 +361,7 @@
 }
 .theme section{
     text-align: center;
-    padding: 25px;
+    padding: 25px; 
     /* margin: 50%; */
 }
 .themetext {
@@ -380,9 +380,6 @@
     /* text-shadow: -1.2px 0 red, 0 1.2px red, 1.2px 0 red, 0 -1.2px red; */
    /* font-weight: 900; */
     font-size: 100px;
-}
-.themepic{
-    /* filter: blur(5px); */
 }
 
 
