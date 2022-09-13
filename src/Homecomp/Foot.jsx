@@ -37,7 +37,7 @@ export default function App() {
                 TEDx Chandigarh University
               </h6> */}
               <p>
-              An independently organized event by the students of Chandigarh University, where we give voices to 'Ideas Worth Spreading'.
+              An independently organized event by the students of Chandigarh University, where we give voices to the 'Ideas Worth Spreading'.
               </p>
             </MDBCol>
 
