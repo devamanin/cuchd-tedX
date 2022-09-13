@@ -11,6 +11,7 @@
     "mdb-react-ui-kit": "^4.1.0",
     "react": "^18.2.0",
     "react-bootstrap": "^2.5.0",
+    "react-card-flip": "^1.1.5",
     "react-dom": "^18.2.0",
     "react-rotating-text": "^1.4.1",
     "react-router-dom": "^6.3.0",

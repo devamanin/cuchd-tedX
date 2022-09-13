@@ -9,6 +9,7 @@ import About from "./Homecomp/About";
 import Blog from "./Homecomp/Blog";
 import Theme from "./Homecomp/Theme";
 import Cuchd from "./Homecomp/Cuchd";
+import Teams from "./Homecomp/Teams";
 // ..
 AOS.init();
 
@@ -23,6 +24,7 @@ function App() {
         <Route path="/blog" element={<Blog />} />
         <Route path="/theme" element={<Theme />} />
         <Route path="/cuchd" element={<Cuchd />} />
+        <Route path="/teams" element={<Teams />} />
       </Routes>
       <Foot />
     <Particles id="tsparticles" />
