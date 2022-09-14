@@ -3,6 +3,7 @@ import Land from "./Land";
 import Blog from "./Blog";
 import Theme from "./Theme";
 import "./Home.css"
+import Teams from "./Teams";
 
 export default function Cuchd() {
     return (
@@ -18,6 +19,7 @@ export default function Cuchd() {
                 </h1>
                 <About />
                 <Theme />
+                <Teams />
             </div>
         </>
     )
