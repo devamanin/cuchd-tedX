@@ -1,6 +1,6 @@
 # Getting Started with Create React App
 
-Link to this site : https://tedxcu.netlify.app
+Link to this site : https://cuchd-tedx.netlify.app
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
