@@ -31,7 +31,7 @@ export default function Land() {
         </txt>
       </div>
 
-      <div className="speakers"  data-aos="fade-up">
+      <div className="speakers" id="speakers"  data-aos="fade-up">
         <h3>Speakers</h3>
         <p>Speakers will be announced soon</p>
         <div>

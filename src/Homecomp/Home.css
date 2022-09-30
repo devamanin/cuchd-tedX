@@ -13,6 +13,7 @@
 
 
 .head {
+    /* position: sticky; */
     font-family: Helvetica;
     z-index: 1;
     color: red;
@@ -63,6 +64,7 @@
  */
 
 .land {
+    margin-top: 5%;
     position: relative;
     font-family: Helvetica;
     /* height: 800px; */
