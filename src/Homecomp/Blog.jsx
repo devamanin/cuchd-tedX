@@ -2,7 +2,7 @@ import { MDBIcon } from "mdb-react-ui-kit"
 
 export default function Blog() {
   return (
-    <>
+    <div id= "blog">
       <h1 style={{color:"red", maxWidth:"1440px",margin:"20px auto",paddingLeft:"2%",fontWeight:"800"}}>
       <span style={{ padding:"5px",borderBottom:"4px red solid"}}>
         Blogs </span>  
@@ -119,6 +119,6 @@ export default function Blog() {
         </section> */}
 
       </div>
-    </>
+    </div>
   )
 }

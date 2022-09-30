@@ -8,7 +8,7 @@ import Teams from "./Teams";
 export default function Cuchd() {
     return (
         <>
-            <div className="cuchd">
+            <div className="cuchd" id="cuchd">
                 <Land />
                 <Blog />
                 {/* <h1>About Us</h1> */}

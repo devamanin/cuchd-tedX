@@ -4,7 +4,7 @@ import "./Home.css"
 export default function About() {
   return (
     <>
-      <div className="aboutp" >
+      <div className="aboutp" id="about">
       {/* <section >
           <p>Lorem ipsum dolor sit amet. Ut maiores enim ad consequatur reiciendis aut veritatis voluptatem et fugiat quisquam est 
             eligendi beatae ea laboriosam vitae ut similique tenetur. Qui odit molestias et assumenda repellat ea minima nemo eos 

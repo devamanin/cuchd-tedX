@@ -17,7 +17,7 @@ class Teams extends Component {
 
 	render() {
 		return (
-			<>
+			<div id="teams">
 
 			<ReactCardFlip isFlipped={this.state.isFlipped} flipDirection="vertical">
 				{/* <div className='teams'> */}
@@ -53,7 +53,7 @@ class Teams extends Component {
 			</ReactCardFlip>
 
 
-			</>
+			</div>
 		)
 	}
 }
