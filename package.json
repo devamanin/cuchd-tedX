@@ -19,6 +19,7 @@
     "react-tsparticles": "^2.1.4",
     "tsparticles": "^2.1.4",
     "tsparticles-slim": "^2.1.4",
+    "vite": "^3.1.4",
     "web-vitals": "^2.1.4"
   },
   "scripts": {

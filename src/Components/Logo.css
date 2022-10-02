@@ -1,0 +1,12 @@
+.logo-container{
+    display: flex;
+    align-items: center;
+    height: 100%;
+    /* background-color: yellow; */
+}
+
+.logo{
+    width: 340px;
+    /* height: 240px; */
+
+}

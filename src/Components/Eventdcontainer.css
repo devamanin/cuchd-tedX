@@ -1,0 +1,9 @@
+.ed-container{
+    background-color: white;
+    width: calc(100% - 360px);
+    height: 160px;
+    border-radius: 11px;
+    position: absolute;
+    bottom: -80px;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
